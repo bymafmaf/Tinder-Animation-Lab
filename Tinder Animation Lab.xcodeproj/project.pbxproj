@@ -12,6 +12,8 @@
 		D2B1B4111E96F466007E692C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B1B40F1E96F466007E692C /* Main.storyboard */; };
 		D2B1B4131E96F466007E692C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B1B4121E96F466007E692C /* Assets.xcassets */; };
 		D2B1B4161E96F466007E692C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B1B4141E96F466007E692C /* LaunchScreen.storyboard */; };
+		D2B1B41F1E96F53D007E692C /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B1B41E1E96F53D007E692C /* CardsViewController.swift */; };
+		D2B1B4211E970A07007E692C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B1B4201E970A07007E692C /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D2B1B4121E96F466007E692C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B1B4151E96F466007E692C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2B1B4171E96F466007E692C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B1B41E1E96F53D007E692C /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		D2B1B4201E970A07007E692C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		D2B1B40A1E96F466007E692C /* Tinder Animation Lab */ = {
 			isa = PBXGroup;
 			children = (
+				D2B1B41D1E96F528007E692C /* ViewControllers */,
 				D2B1B40B1E96F466007E692C /* AppDelegate.swift */,
 				D2B1B40D1E96F466007E692C /* ViewController.swift */,
 				D2B1B40F1E96F466007E692C /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				D2B1B4171E96F466007E692C /* Info.plist */,
 			);
 			path = "Tinder Animation Lab";
+			sourceTree = "<group>";
+		};
+		D2B1B41D1E96F528007E692C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2B1B41E1E96F53D007E692C /* CardsViewController.swift */,
+				D2B1B4201E970A07007E692C /* ProfileViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			files = (
 				D2B1B40E1E96F466007E692C /* ViewController.swift in Sources */,
 				D2B1B40C1E96F466007E692C /* AppDelegate.swift in Sources */,
+				D2B1B4211E970A07007E692C /* ProfileViewController.swift in Sources */,
+				D2B1B41F1E96F53D007E692C /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
